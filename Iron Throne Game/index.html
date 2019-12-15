@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Iron Throne Game </title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="wrap">
+    <div id="menu">
+      <ul>
+        <li>
+          <a href=""><img src="./assets/logo/logo.png" alt="logo" width="220" height="120" /></a>
+        </li>
+      </ul>
+    </div>
+    
+	  
+    <div id="character-select">
+      <h2>Select 2 Characters</h2>
+      <form name="character-selector" id="character-selector" class="character-selector"></form>
+    </div>
+
+    <div id="game">
+      <button class="roll">Roll</button>
+      <div id="notifications">
+        <ul></ul>
+      </div>
+      <div id="dice"></div>
+      <canvas id="board" width="800" height="600"></canvas>
+    </div>
+
+    <div id="winner">
+      <div class="winner-inner">
+        <div class="winner-front">
+        </div>
+        <div class="winner-back">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div>
+      <h1>Iron Throne Game</h1>
+      <h3>Version 1.0</h3>
+      <p>Copyright Javin Design 2019</p>
+    </div>
+  </footer>
+  <script src="bundle.js"></script>
+</body>
+</html>
